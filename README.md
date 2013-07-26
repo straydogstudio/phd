@@ -39,8 +39,14 @@ The usual fork, change, test, pull request.
 
 ## Change log
 
-- **May 17, 2013**: 0.1.1 release
-  - Basic command line usage. Files searched and database filled with stats.
+**July 26, 2013**: 0.1.2 release
 
-- **June 14, 2012**: 0.1.0 release
-  - Initial posting.
+- Rename gem to phd
+
+**May 17, 2013**: 0.1.1 release
+
+- Basic command line usage. Files searched and database filled with stats.
+
+**June 14, 2012**: 0.1.0 release
+
+- Initial posting.
