@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+# (C) Noel Peden (straydogstudio)
+# MIT license
+
+$0 = 'phd'
+
+begin
+  require 'phd'
+rescue LoadError
+  require 'rubygems'
+  require 'phd'
+end
+
+# Process command line options and run Pry
+cli = Phd::CLI.new
+cli.execute
