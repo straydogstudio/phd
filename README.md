@@ -1,3 +1,7 @@
+# NOTE
+
+This isn't yet functional. It creates an index, but doesn't yet serve anything to the browser. 
+
 # Phd
 
 Phd is a tool to browse changes in disk space usage. It creates a database and creates SVG images of the usage. The svg uses area and color to display both file size and size change relative to the compared date. A cgi wrapper is also available for browsing usage. Phd is a near complete rewrite of philesight (http://zevv.nl/play/code/philesight/) with many changes.
